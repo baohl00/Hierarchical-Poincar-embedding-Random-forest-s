@@ -1,9 +1,5 @@
 # Hierarchical-Poincar-embedding-Random-forest-s
-### Reference
-Contrastive Learning: https://arxiv.org/abs/2112.04871
-
-Lars' Blog - Implementing Poincaré Embeddings in PyTorch (lars76.github.io): https://lars76.github.io/2020/07/24/implementing-poincare-embedding.html (nhớ chặn chuẩn các vector <1)
-
+### 
 Sử dụng hierarchical/Poincaré embeddings để biểu diễn mô hình **Random forest (các tree/graph).**
 
 Dùng **[Contrastive Learning](https://arxiv.org/abs/2112.04871) để embedding tree: các node cùng cây link trực tiếp nhau thì gần nhau, các node dùng cùng feature thì gần nhau.**
@@ -16,3 +12,5 @@ Ngữ cảnh áp dụng:
 
 - data ban đầu là dữ liệu dạng bảng, có missing
 - Tìm cách đưa dữ liệu này thành dạng liên tục làm input cho ANN.
+
+[Lars' Blog - Implementing Poincaré Embeddings in PyTorch (lars76.github.io)](https://lars76.github.io/2020/07/24/implementing-poincare-embedding.html) (nhớ chặn chuẩn các vector <1)
