@@ -1,4 +1,4 @@
-# Hierarchical-Poincar-embedding-Random-forest-s
+# Hierarchical-Poincare-embedding-Random-forest
 ### 
 Sử dụng hierarchical/Poincaré embeddings để biểu diễn mô hình **Random forest (các tree/graph).**
 
